@@ -1,26 +1,26 @@
-// const student = {
-//     name:'Farhan',
-//     id : 14,
-//     isCute : true,
-//     money :5000,
-//     job :{
+const student = {
+    name:'Farhan',
+    id : 14,
+    isCute : true,
+    money :5000,
+    job :{
 
-//         primary :'graphics',
-//         second :'web'
-//     },
-//     rolesInExams:[10,20,3,5],
+        primary :'graphics',
+        second :'web'
+    },
+    rolesInExams:[10,20,3,5],
 
-//     takeMoney : function (){
+    takeMoney : function (){
         
-//     },
-//     final : function(expenses){
-//          this.money = this.money - expenses
-//         return this.money
+    },
+    final : function(expenses){
+         this.money = this.money - expenses
+        return this.money
        
-//     }
+    }
     
 
-// }
+}
 
 // student.takeMoney ()
 // const remaining = student.final(400)
@@ -65,11 +65,18 @@
 // sums(20,50)
 
 const array = [ 100,20,12,52,15,34]
-const sum =  array.map(x => x /7)
-console.log(sum);
+// const sum =  array.map(x => x /7)
+// console.log(sum);
 
-array.forEach(element => console.log(element))
-const final = array.filter (array  => array > 30 )
-console.log(final);
-const semiFinal = array.find(array=> array >30)
-console.log(semiFinal);
+// array.forEach(element => console.log(element))
+// const final = array.filter (array  => array > 30 )
+// console.log(final);
+// const semiFinal = array.find(array=> array >30)
+// console.log(semiFinal);
+
+
+const {name} = student;
+console.log(name);
+
+const [one,two] = array;
+console.log(one,two);
